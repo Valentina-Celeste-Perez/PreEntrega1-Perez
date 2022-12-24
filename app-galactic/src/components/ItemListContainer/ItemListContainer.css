@@ -1,0 +1,8 @@
+.item {
+    background: rgb(8,27,128);
+    background: radial-gradient(circle, rgba(8,27,128,1) 0%, rgba(96,18,106,1) 100%);
+}
+.text {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
