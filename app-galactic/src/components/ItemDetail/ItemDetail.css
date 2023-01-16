@@ -1,0 +1,61 @@
+.CardItemDetail {
+    width: 500px;
+    padding: 30px;
+    margin: 30px;
+    font-size: 10px;
+    background-color: rgb(20, 19, 19);
+    border: 1px solid #e01c1c;
+    border-radius: 10px;
+}
+
+.ContainerItem {
+    display: flex; 
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 25px; 
+}
+
+.ItemHeader {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.Info {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    margin: 6px;
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Button {
+    width: auto;
+    padding: 12px;
+    font-size: 15px;
+    background: #f3f0f715;
+    border-radius: 8px;
+    flex: none;
+    display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.ItemImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
